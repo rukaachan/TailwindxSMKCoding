@@ -9,8 +9,7 @@
     <style>
       .filter {
         filter: invert(99%) sepia(95%) saturate(564%)
-          hue-rotate(313deg) brightness(99%) contrast(90%)
-          opacity(45%);
+          hue-rotate(313deg) brightness(99%) contrast(90%);
       }
       * {
         font-family: 'Poppins', sans-serif;
@@ -30,10 +29,14 @@
   <body>
     <!-- BACKGROUND COFFE -->
     <div class="relative">
-      <img
-        src="Images/bg-aboutus.png"
-        alt="coffe"
-        class="absolute z-[-40] mt-28 bg-black rounded-r-lg w-[65%] py-16 filter" />
+      <div class="absolute z-[-40] mt-28 w-[65%] py-16">
+        <img
+          src="Images/bg-aboutus.png"
+          alt="coffe"
+          class="w-full h-full object-cover filter" />
+        <div
+          class="absolute inset-0 bg-[#f6eada] bg-opacity-80 rounded-r-3xl"></div>
+      </div>
     </div>
 
     <!-- CARD FACE -->
@@ -52,9 +55,9 @@
           <img
             src="Images/testimonial-1.png"
             alt=""
-            class="w-[80%]" />
+            class="w-[82%]" />
           <div
-            class="bottom-0 -mt-36 ml-10 left-0 w-[85%] p-4 bg-[#ffcc7d] bg-opacity-90 text-white text-nowrap relative rounded-[10px] border-solid border-4 border-[#ffd99e]">
+            class="bottom-0 -mt-36 ml-10 left-0 w-[85%] p-4 bg-[#ffcc7d] bg-opacity-90 text-white text-nowrap relative rounded-[10px] border-solid border-[7px] border-[#ffd99e]">
             <div class="text-black">
               <h2 class="text-lg font-bold mb-2 text-black">Naura</h2>
               <p>I really love the cappucino,</p>
@@ -67,9 +70,9 @@
           <img
             src="Images/testimonial-2.png"
             alt=""
-            class="w-[98;%]" />
+            class="w-[100%]" />
           <div
-            class="bottom-0 -mt-36 ml-10 left-0 w-[85%] p-4 bg-[#ffcc7d] bg-opacity-90 text-white text-nowrap relative rounded-[10px] border-solid border-4 border-[#ffd99e]">
+            class="bottom-0 -mt-36 ml-10 left-0 w-[95%] p-4 bg-[#ffcc7d] bg-opacity-90 text-white text-nowrap relative rounded-[10px] border-solid border-[7px] border-[#ffd99e]">
             <div class="text-black">
               <h2 class="text-lg mb-2 font-semibold">John</h2>
               <p>this coffe shop is very</p>
@@ -86,9 +89,9 @@
           <img
             src="Images/testimonial-3.png"
             alt=""
-            class="w-[95%]" />
+            class="w-[100%]" />
           <div
-            class="bottom-0 -mt-36 ml-10 left-0 w-[85%] p-4 bg-[#ffcc7d] bg-opacity-90 text-white text-nowrap relative rounded-[10px] border-solid border-4 border-[#ffd99e]">
+            class="bottom-0 -mt-36 ml-10 left-0 w-[95%] p-4 bg-[#ffcc7d] bg-opacity-90 text-white text-nowrap relative rounded-[10px] border-solid border-[7px] border-[#ffd99e]">
             <div class="text-black">
               <h2 class="text-lg font-bold mb-2 text-black">Azura</h2>
               <p>the coffe menu here is</p>
