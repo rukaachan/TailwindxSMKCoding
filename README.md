@@ -1,0 +1,1 @@
+The purpose of this project is to realize the website design provided by SMK Coding by utilizing the Tailwind CSS framework. Tailwind CSS was chosen because of its ability to provide flexibility and efficiency in implementing the design consistently.
